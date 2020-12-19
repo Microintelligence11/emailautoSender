@@ -1,6 +1,8 @@
 import smtplib
 import pandas as pd
 
+# read data through pandas 
+
 
 data = pd.read_excel('email_data.xlsx')
 data_dict = data.to_dict('list')
